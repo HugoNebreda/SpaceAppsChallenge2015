@@ -1,0 +1,106 @@
+@import url('reset.css');
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+body{
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-ms-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+font-smoothing: antialiased;
+background: #E5E5E5;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(white), to(#E5E5E5));
+background: -webkit-radial-gradient(white, #E5E5E5);
+background: -moz-radial-gradient(white, #E5E5E5);
+background: -ms-radial-gradient(white, #E5E5E5);
+background: -o-radial-gradient(white, #E5E5E5);
+background: radial-gradient(white, #E5E5E5);
+color: #333;
+font-family: 'HelveticaNeue', sans-serif;
+font-weight: normal;
+font-size: 18px;
+height: 100%;
+width: 100%; 
+font-size:12px;
+overflow: hidden;
+}
+#main-wrapper{
+-webkit-transition: -webkit-filter 350ms ease-out;
+-moz-transition: -moz-filter 350ms ease-out;
+-ms-transition: -ms-filter 350ms ease-out;
+-o-transition: -o-filter 350ms ease-out;
+transition: filter 350ms ease-out;
+display:block;
+position:relative;
+height: 100%;
+min-width: 400px;
+width: 400px !important;
+z-index: 25;
+padding-top:30px;
+}
+
+small{font-size:11px; font-style:italic;}
+
+.cBoth{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+#text1{
+	text-align: center;
+	color: #FFF;
+	font-family: 'Francois One', sans-serif;
+	font-size: 18px;
+	line-height: 23px;
+}
+#main-wrapper{
+    margin: 0 auto;
+    width: 970px;
+}
+.content-wrapper{display:block; position:relative;}
+#iphone-frame{
+    position: relative;
+    width: 370px;
+    height: 580px;
+    margin: 0px;
+    float: left;
+}
+
+#iphone{
+    position: relative;
+    width: 380px;
+    overflow: hidden;
+    height: 742px;
+    background: url('images/iphone.png');
+    z-index: 2;
+    margin: 0 auto;
+}
+
+#iframe-iphone{
+    width: 322px;
+    height: 480px;
+    overflow: hidden;
+    margin-left: 31px;
+    margin-top: 130px;
+}
+
+#iphone iframe{
+    width: 337px;
+    height: 480px;
+}
+
+#iphone-shadow{
+    position: relative;
+    top: -120px;
+    left: -50px;
+    z-index: 1;
+    margin: 0 auto;
+    width: 510px;
+    height: 227px;
+    background: url('images/iphone_shadow.png') no-repeat;
+}
+

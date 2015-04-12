@@ -1,0 +1,555 @@
+{"missions":[{
+    "title": "Base Station Walk-Back",
+    "missionQuestion": "How could you perform a physical activity that would improve heart, lung, and muscle endurance? Being physically active is an important way to keep your muscles strong and your heart and lungs healthy. When shopping at the mall, touring a museum, or on the way to and from class at school, the lungs, heart, and other muscles benefit. They get stronger by being worked for long periods of time.",
+    "crewMemberMission": "Students will: perform a walk, progressing to 1600 m (1 mi) to improve lung, heart, and other muscle endurance.record observations about improvements in this walk-back physical endurance experience using their lungs, hearts, and other muscles in their Mission Journa",
+	"image":"Base-Station-Walk-Back.png",
+    "video": {
+      "title": "Base Station Walk-Back",
+      "videoUrl": "https://youtu.be/s6tVH6E-iMw",
+      "description": "NASA astronauts Dottie Metcalf-Lindenburger and Kjell Lindgren explain why astronauts need to build up their endurance for long spacewalks. Astronaut trainer Yamil Garcia shows how to measure out a course and gradually increase the distance you run, jog or walk until you can complete it."
+    },
+    "type": "Physical",
+    "activities": [
+      {
+        "title": "Endurance Training",
+        "type": "Mission Asignment",
+        "sets": [
+          {
+            "title": "Measure a course with the following distances: ",
+            "steps": [
+              "400 m (¼ mi)",
+              "800 m (¼ mi)",
+              "1200 m (¼ mi)",
+              "1600 m (¼ mi)",
+              "This could be laps around the playground, track, gym, or your neighborhood."
+            ]
+          },
+          {
+            "title": "At your own pace, walk, jog, or run the measured distance.",
+            "steps": [
+              "Start by trying to complete 400 m (¼ mi).",
+              "Slowly work to increase the distance by 400 m (¼ mi).",
+              "Over time, your goal should be to complete 1600 m (1 mi)."
+            ]
+          },
+          {
+            "title": "Record observations before and after this physical experience in your Mission Journal"
+          }
+        ]
+      },
+      {
+        "title": "Fitness Acceleration",
+        "type": "Fitness Acceleration",
+        "steps": [
+          "Sprint 100 m (110 yards) then walk 100 m (110 yards). Repeat  this four times. ",
+          "Sprint intervals on a basketball court. Sprint 13 m (42 ft) touch the  floor with your hand and reverse immediately to where you  started and touch the floor. Sprint 22.6 m (74 ft) Touch the line  with your hand and reverse immediately to where you started. Do  this two times.",
+          "Repeat the above intervals, this time increase the distance by  doing the intervals four times instead of two."
+        ]
+      },
+      {
+        "title": "Mission Explorations",
+        "type": "Mission Explorations",
+        "steps": [
+          "Perform the activity as a relay team event.",
+          "Trail walk or hike a measured distance.",
+          "Compete in “fun-runs”, races, or join a track team.",
+          "Walk with your family or friends instead of using other transportation."
+        ]
+      }
+    ],
+    "facts":[
+      "By improving your ability to walk a measured distance, you may find that running a race, walking uphill, or carrying a heavy backpack while walking  will become easier over time.",
+        "When exploring the moon or Mars, astronauts will complete many physical tasks such as setting up science experiments and power systems around the base and collecting rock samples. They will also walk or drive the roverlong distances in order to explore the surface. If their roverbreaks down, they must be able to walk up to a distance of 10 km (6.2 mi) back to their base station. Astronauts are examined by research scientists in NASA’s Cardiovascular Laboratory and they train with NASA strength and conditioning specialists to strengthen their lungs, hearts and other muscles before their mission. This helps NASA to know the crew member is physically prepared to complete their mission tasks and to perform a walk-back, if necessary."
+        ],
+    "definitions": [
+      {
+        "title": "Base Station:",
+        "description": "A home-base on the moon or Mars where astronauts will be stationed."
+      },
+      {
+        "title": "Endurance",
+        "description": "The ability to perform an exercise or a physical task over a long period of time."
+      },
+      {
+        "title": "Rover",
+        "description": "A go-cart-like vehicle that astronauts drive on the moon and potentially the Mars surface."
+      }
+    ],
+    "additionalResources": [
+      {
+        "title": "Educator Guide (PDF)",
+        "url": "http://www.nasa.gov/sites/default/files/182806main_Walk-Back_ED.pdf"
+      },
+      {
+        "title": "View in website",
+        "url": "http://www.nasa.gov/audience/foreducators/trainlikeanastronaut/activities/Walkback.html"
+      }
+    ],
+	"questions":{
+		"OEQ":[
+			"How far did you get? ",
+			"What happened to your heart rate?",
+			"Where is the energy you are using coming from?",
+			"What do your legs feel like now compared to when we first tried this physical activity? ",
+			"Can you describe how your breathing changed during the physical activity? ",
+			"How did your body cool itself during the physical activity? ",
+			"How well would your body cool itself if you were wearing a thick coat? ",
+			"What are some challenges astronauts might face in completing a walk-back to their base station? ",
+			"How might these challenges affect their ability to perform the walk-back? "
+		],
+		"Quantitative":[
+			{
+				"title":"Heart Rate",
+				"placeholder":"beats per minute"
+			},
+			{
+				"title":"Respiration Rate",
+				"placeholder":"breaths per minute"
+			},
+			{
+				"title":"Rate of Perceived Exertion",
+				"placeholder":"on a scale of 1-10"
+			}
+		]
+	}
+  },
+  {
+    "title": "Crew Strength Training",
+    "missionQuestion": "How could you perform a physical activity that would strengthen your muscles and bones in both your upper and lower body? Strong muscles and bones are important to overall health. They are necessary for performing chores and tasks at home, at school, or while playing. When lifting an object off the floor, pushing up out of bed, or bending to see under an object, you use upper and lower body strength. Physical activities such as these will help keep muscles and bones strong!",
+    "crewMemberMission": "Students will: perform body-weight squats and push-ups to develop upper and lower body strength in muscles and bones.record observations about improvements in strength training during this physical experience in their Mission Journal.",
+    "image":"Crew-Strength-Training.png",
+	"video": {
+      "title": "Crew Strength Training",
+      "videoUrl": "https://youtu.be/s6tVH6E-iMw",
+      "description": "NASA astronauts Dottie Metcalf-Lindenburger and Kjell Lindgren and astronaut trainer Yamil Garcia share an activity that helps you develop strong muscles and bones, which astronauts need for life in space."
+    },
+    "type": "Physical",
+    "activities": [
+      {
+        "title": " Strength Training",
+        "type": "Mission Asignment",
+        "sets": [
+          {
+            "title": "Body weight squats",
+            "steps": [
+              "Using only your body weight, perform a squat (each squat is a repetition)",
+              "Stand with your feet shoulder width apart, back straight, looking forward, arms at your side.",
+              "Lower your body, bending your knees while keeping your back straight (as if sitting). Raise your arms forward for balance as you squat. At the bottom of the motion, your upper legs should be close to parallel with the floor and your knees should not extend past your toes",
+              "Raise your body back to a standing position.",
+              "Try to perform 10 to 25 squat repetitions, increasing over time as possible.",
+              "Rest for 60 seconds."
+            ]
+          },
+          {
+            "title": "This entire routine of strength trainingshould be repeated two more times"
+          },
+          {
+            "title": "Record observations before and after this physical experience in your Mission Journal"
+          }
+        ]
+      },
+      {
+        "title": "Fitness Acceleration",
+        "type": "Fitness Acceleration",
+        "steps": [
+          "Complete five squats, holding the last squat for 30 seconds. Complete  five more squats, holding the last squat for 60 seconds. Rest for 60  seconds. Do this three times for a total of 30 squats.",
+          "Complete 10-25 pushups on a balance ball. You will balance your body on the exercise ball and push off with your hands to complete one push-up",
+          "Grab two 1-3 lb dumbbells. Get into the push-up position and do five  push-ups as your hands balance on the dumbbells. Now, lift the dumb  bell with your right arm off the floor and bring it to your underarm. You will be balancing your body in the push-up position using  one arm as you lift your right hand with the dumbbell to  your underarm. Do these ten times and repeat  with the opposite arm."
+        ]
+      },
+      {
+        "title": "Mission Explorations",
+        "type": "Mission Explorations",
+        "steps": [
+          "Climb across the monkey bars of the play equipment using only your hands",
+          "Do walking lunges across the gym floor",
+          "Walk up and down a set of stairs.",
+          "Compete in a game of rope tug-of-war. (Wear gloves to avoid rope burns.)"
+        ]
+      }
+    ],
+    "facts": [
+      "By doing exercises that use your own body weight, you can increase the strength of your muscles and bones. Lack of physical activity can increase the chances of injury because your muscles and bones may be weak. Even easy physical tasks might seem hard!",
+      "Astronauts must perform physical tasks in space that require strong  muscles and bones. In a reduced gravity environment muscles and  bones can become weak, so astronauts must prepare by strength  training. They work with NASA strength and conditioning specialists  on Earth and continue to work in space to keep their muscles and  bones strong for exploration missions and discovery activities."
+    ],
+    "definitions": [
+      {
+        "title": "Strength Training",
+        "description": "Physical activities which use resistance to increase muscle and bone strength, and help improve overall health and fitness"
+      },
+      {
+        "title": "Crew (crew members)",
+        "description": "People working together on a common activity or for a common purpose; a term for NASA astronauts who share their mission with each other."
+      },
+      {
+        "title": "Resistance",
+        "description": "An opposing force (through gravity, weight, or equipment)."
+      },
+      {
+        "title": "Repetition",
+        "description": "A motion (such as a body-weight squat or a push-up) that is repeated and usually counted"
+      }
+    ],
+    "additionalResources": [
+      {
+        "title": "Educator Guide (PDF)",
+        "url": "http://www.nasa.gov/sites/default/files/182806main_Walk-Back_ED.pdf"
+      },
+      {
+        "title": "Adapted Physical Activity Strategies Handout (PDF)",
+        "url": "http://www.nasa.gov/sites/default/files/files/Crew-Strength-Training-508.pdf"
+      },
+      {
+        "title": "View in website",
+        "url": "http://www.nasa.gov/audience/foreducators/trainlikeanastronaut/activities/Walkback.html"
+      }
+    ],
+	"questions":{
+		"OEQ":[
+			"How far did you get? ",
+			"What happened to your heart rate?",
+			"Where is the energy you are using coming from?",
+			"What do your legs feel like now compared to when we first tried this physical activity? ",
+			"Can you describe how your breathing changed during the physical activity? ",
+			"How did your body cool itself during the physical activity? ",
+			"How well would your body cool itself if you were wearing a thick coat? ",
+			"What are some challenges astronauts might face in completing a walk-back to their base station? ",
+			"How might these challenges affect their ability to perform the walk-back? "
+		],
+		"Quantitative":[
+			{
+				"title":"Heart Rate",
+				"placeholder":"beats per minute"
+			},
+			{
+				"title":"Respiration Rate",
+				"placeholder":"breaths per minute"
+			},
+			{
+				"title":"Rate of Perceived Exertion",
+				"placeholder":"on a scale of 1-10"
+			}
+		]
+	}
+  },
+  {
+    "title":"Building an Astronaut 'Core'",
+    "mission-question":"How can you perform a physical activity that will improve abdominal and back muscles? Back and abdominal muscles are known as the core muscles. They protect your spine, maintain proper posture, and transfer energy through your body for powerful movements such as swinging and throwing. These muscles work together as you sit up or lie down in bed, turn your body, pick up an object, and stand still. Core muscles also work together to maintain posture while wearing a heavy backpack.",
+     "crew-member-mission":"Students will: perform the Commander Crunch and Pilot Plank exercises to improve the strength in abdominal and back muscles. Record your observations about improvements in core muscle strength during this physical experience in your Mission Journal.",
+    "image":"Building-an-Astronaut-Core.png",
+	"video":{
+    	"title":"Building an Astronaut Core",
+    	"video-url":"https://youtu.be/4ggTyC2e3uo",
+    	"description": "NASA astronauts Dottie Metcalf-Lindenburger and Kjell Lindgren describe the need for astronauts in space to have strong core muscles, while astronaut trainer Yamil Garcia walks you through the 'Commander Crunch' and 'Pilot Plank' exercises."
+       },
+    "type":"Physical",
+
+    "activities":[
+
+		{
+			"title":"Agility Training",
+			"type":"Mission Asignments",
+			"sets":
+				[	
+					{
+						"title":"A warm-up/stretching and cool-down period is always recommended."
+					},
+					{
+						"title":"Commander Crunches",
+						"steps":[
+							"Lie on your back, knees bent, feet flat on the floor.",
+							"Chin should be pointed to the sky, arms crossed over your chest.",
+							"Using only your abdominal muscles, lift your upper body until your shoulder blades leave the ground. Put one hand on your abdomen to feel your muscles working as you raise your shoulders off the floor.",
+							"Lower your shoulders down using only your abdominal muscles to complete one crunch.",
+							"At your partners command, begin to complete as many crunches as possible in one minute, timed or counted by your partner."
+						]
+					},
+					{
+						"title":"Pilot Plank",
+						"steps":[
+							"Lie down on your stomach.",
+							"Resting on you forearms, make a fist with each hand, place your knuckles on the floor shoulder width apart.",
+							"Using only your arm muscles, push your body off the floor supporting your weight on your forearms and toes.",
+							"Your body should be straight as a board from your head to your feet.",
+							"Using the muscles in your abdomen and back, stabilize your body by tightening these muscles.",
+							"Try to keep this position for at least 30 seconds.",
+							"Switch places with your partner and follow the same procedure."
+						]
+					},
+					{
+						"title":"Record observations before and after this physical experience in your Mission Journal."
+					}
+					
+				]
+				
+
+			
+    	},
+		{
+			"type":"Fitness Acceleration",
+			"steps":
+				[	
+					"Increase the number of Commander Crunches in one minute.",
+					"Increase the time in which the Commander Crunches and Pilot Plank are performed.",
+					"Repeat the Commander Crunch activity only this time do not cross your arms. While holding the medicine ball over your abdomen, do as many crunches as possible in one minute.(Safety: Do not rest the medicine ball on your abdomen. Also, be sure your partner is close by in case you need assistance.)",
+					"Repeat the Pilot Plank activity only this time, extend one leg to the side. Hold your leg out for 30 seconds. Repeat this activity with the opposite leg. Alternate extending each leg to the side.",
+					"Try the Mission Specialist Side Heel-Touches as instructed by your teacher."
+					
+				]
+					
+
+				
+	    },
+		{
+			
+			"type":"Mission Explorations",
+			"sets":
+				[	
+					{
+						"title":"Explore a jungle gym, placing emphasis on climbing, swinging from a bar, or hanging from a ladder following the rungs to the other side."
+					},
+					{
+						"title":"Play a team sport such as kickball or soccer to build core strength."
+					},
+					{
+						"title":"Participate in activities that concentrate on core muscles such as yoga, Pilates, gymnastics, and diving."
+					}					
+				]
+
+			
+    	}
+	],
+	"facts":[
+		"Just like on Earth, astronauts in space must be able to twist, bend, lift, and carry things. They must have strong core muscles so they can perform their tasks efficiently and avoid injury. During missions in space they need to bend their body and hold it straight for extended periods of time. Astronaut’s muscles get smaller and weaker over time in a microgravity environment. In order to maintain muscle strength they practice core-building activities before, during, and after their missions. Here on Earth, these activities may include swimming, running, weight training, or floor exercises. In space, they use specialized equipment similar to what you would find here on Earth to keep an exercise routine that will keep their core muscles fit for the job.", 
+		"Back and abdominal muscles are known as the core muscles. They protect your spine, maintain proper posture, and transfer energy through your body for powerful movements such as swinging and throwing. These muscles work together as you sit up or lie down in bed, turn your body, pick up an object, and stand still. Core muscles also work together to maintain posture while wearing a heavy backpack.",
+		"By improving the strength of your core muscles, you will find it easier to stabilize your body, maintain proper posture, and prevent injury. With strong core muscles, you may find that you have better posture, can balance extra weight easier, and you might have better agility for sudden movements during sports activities."
+    ],
+    "definitions": [
+      {
+        "title": "Core:",
+        "description": "The muscles that stabilize, align, and move the trunk of the body; the abdominal and back muscles."
+      },
+      {
+        "title": "Stabilize:",
+        "description": "To keep something at the same level; to maintain that level."
+      },
+	  {
+        "title": "Posture:",
+        "description": "A position the body can assume; standing, sitting, kneeling, or lying down."
+      },
+      {
+        "title": "Repetition:",
+        "description": "A motion that is repeated and usually counted."
+      },
+	  {
+        "title": "Forearm:",
+        "description": "The part of the human arm extends from the elbow down to the wrist; lower arm."
+      },
+      {
+        "title": "Spine:",
+        "description": "Consists of the spinal cord, vertebrae and discs; supports an animal’s body."
+      }
+    ],
+	
+	"additional-resources":
+		[
+			{
+				"title": "Educator Guide (PDF)",
+				"url":"http://www.nasa.gov/sites/default/files/543965main_BUILDINGASTROCORE_ED_508.pdf"
+			},
+			{
+				"title": "Adapted Physical Activity Strategies Handout (PDF)",
+				"url":"http://www.nasa.gov/sites/default/files/files/BuildingAstroCore-508.pdf"
+			},
+			{
+				"title": "View in website",
+				"url": "http://www.nasa.gov/audience/foreducators/trainlikeanastronaut/activities/CoreStrength.html"
+			}
+		],
+		"questions":{
+			"OEQ":[
+				"How far did you get? ",
+				"What happened to your heart rate?",
+				"Where is the energy you are using coming from?",
+				"What do your legs feel like now compared to when we first tried this physical activity? ",
+				"Can you describe how your breathing changed during the physical activity? ",
+				"How did your body cool itself during the physical activity? ",
+				"How well would your body cool itself if you were wearing a thick coat? ",
+				"What are some challenges astronauts might face in completing a walk-back to their base station? ",
+				"How might these challenges affect their ability to perform the walk-back? "
+			],
+			"Quantitative":[
+				{
+					"title":"Heart Rate",
+					"placeholder":"beats per minute"
+				},
+				{
+					"title":"Respiration Rate",
+					"placeholder":"breaths per minute"
+				},
+				{
+					"title":"Rate of Perceived Exertion",
+					"placeholder":"on a scale of 1-10"
+				}
+			]
+		}
+	},
+	{
+    "title":"Agility Astro-Course",
+    "mission-question":"How can you perform a physical activity that will improve your agility, coordination, and speed? Agility requires quickness, strength, and good balance and coordination. Walking up and down stairs, hiking outdoors and playing tag are some daily activities that require agility.",
+     "crew-member-mission":"Students will: complete an agility course as quickly and as accurately as possible to improve agility, coordination and speed. Comment on your agility during this physical experience on your Mission Journal.",
+    "image":"Agility-Astro-Course.png",
+	"video":{
+    	"title":"Agility Astro-Course",
+    	"video-url":"https://youtu.be/11N4AOHr1JE",
+    	"description": "About the Video: NASA astronauts Dottie Metcalf-Lindenburger and Kjell Lindgren explain the importance of agility training for spaceflight, while astronaut trainer Yamil Garcia shows you how to set up and use the 'Agility Astro-Course.'"
+       },
+    "type":"Physical",
+
+    "activities":[
+
+		{
+			"title":"Agility Training",
+			"type":"Mission Asignments",
+			"sets":
+				[	
+					{
+						"title":"A warm-up/stretching and cool-down period is always recommended."
+					},
+					{
+						"title":"Lie face-down on the ground at the starting point."
+					},
+					{
+						"title":"When time starts, jump to your feet and run the course to the finish following these criteria.",
+						"steps":["Complete the course as quickly as possible.",
+							"Do not touch or knock over any cones.",
+							"Touching or knocking over a cone is a 2 second penalty added to your completed time for each cone infraction."]
+					},
+					{
+						"title":"Record your final time on your Mission Journal"
+					},
+					{
+						"title":"Record any penalties that occurred on your Mission Journal."
+					},
+					{
+						"title":"Rest at least one minute. "
+					},
+					{
+						"title":"Return to the line, repeat the Astro-Course at least three times, following the same directions as the first time. Continue to practice improving your movements, accuracy and time."
+					},
+					{
+						"title":"Record observations about this activity before and after this physical experience in your Mission Journal."
+					}
+					
+				]
+				
+
+			
+    	},
+		{
+			"type":"Fitness Acceleration",
+			"steps":
+				[	
+					"Using the same set up as the Agility Astro-Course, move the cones to make the agility course larger. One may also add more cones to increase the agility factor. One may also reduce the area of the Agility Astro-Course by using less cones. Is this course more difficult to complete?",
+					"Immediately before engaging in the Agility Astro-Course, do jumping jacks for 30 seconds. Compare this time to the times for the first three trials. Did your time increase or decrease? Explain.",
+					"Change the environment in which the Agility Astro-Course is performed (i.e. inside to outside).",
+					"Decrease the rest time between trials."
+					
+				]
+					
+
+				
+	    },
+		{
+			
+			"type":"Mission Explorations",
+			"sets":
+				[	
+					{
+						"title":"Stand on one leg. Wave your arms and other leg about and still try to keep your balance."
+					},
+					{
+						"title":"Participate in a field sport such as soccer or a racket sport such as tennis."
+					},
+					{
+						"title":"Take part in a relay race with other pairs of students.",
+						"steps":[
+							"Stand beside your partner",
+							"Do not touch or knock over any cones.",
+							"Using a scarf or bandana, tie you and your partner’s legs that are nearest to each other together at the ankle.",
+							"Race a measured distant to the finish line."
+						]
+					},
+					{
+						"title":"Participate in sack races.",
+						"steps":[
+							"Step into a sack made of burlap, pulling it over your feet and up around your waist.",
+							"Hold the sack in place, and race against other students by hopping to the finish line."
+						]
+					}					
+				]
+			
+    	}
+	],
+	"facts":[
+		"Astronauts practice strength and agility through training exercises designed by NASA Astronaut Strength, Conditioning & Rehabilitation Specialists (ASCR). These fitness specialists conduct an annual fitness test, design individual exercise programs, and provide one-on-one pre-flight and post-flight conditioning activities for the astronauts. The agility we use every day on Earth is different from the agility used in space. Being in space over a period of time can affect astronaut’s agility. This is observed once the astronauts return to Earth. Due to the astronauts living in microgravity environment and not using their muscles as they do on Earth, their muscles weaken. After they return from a long duration mission, astronauts work with ASCRs to restore and maintain agility as before their spaceflight mission.",
+		"Improving agility makes it easier for you to move around objects quickly and safely. By improving your movements and time on the Agility Astro-Course, you may find it is easier to change directions while moving or running and keep your  balance instead of falling over or bumping into other people or objects."
+    ],
+    "definitions": [
+      {
+        "title": "Agility:",
+        "description": "The ability to quickly and easily move your body."
+      },
+      {
+        "title": "Coordination:",
+        "description": "Using your muscles together to move your body"
+      }
+    ],
+	
+	"additional-resources":
+		[
+			{
+				"title": "Educator Guide (PDF)",
+				"url":"http://www.nasa.gov/sites/default/files/543962main_AGILITYASTROCOURSE_ED_508.pdf"
+			},
+			{
+				"title": "Adapted Physical Activity Strategies Handout (PDF)",
+				"url":"http://www.nasa.gov/sites/default/files/files/Agility-Astro-Course-508.pdf"
+			},
+			{
+				"title": "View in website",
+				"url": "http://www.nasa.gov/audience/foreducators/trainlikeanastronaut/activities/Agility.html"
+			}
+		],
+		"questions":{
+			"OEQ":[
+				"How far did you get? ",
+				"What happened to your heart rate?",
+				"Where is the energy you are using coming from?",
+				"What do your legs feel like now compared to when we first tried this physical activity? ",
+				"Can you describe how your breathing changed during the physical activity? ",
+				"How did your body cool itself during the physical activity? ",
+				"How well would your body cool itself if you were wearing a thick coat? ",
+				"What are some challenges astronauts might face in completing a walk-back to their base station? ",
+				"How might these challenges affect their ability to perform the walk-back? "
+			],
+			"Quantitative":[
+				{
+					"title":"Heart Rate",
+					"placeholder":"beats per minute"
+				},
+				{
+					"title":"Respiration Rate",
+					"placeholder":"breaths per minute"
+				},
+				{
+					"title":"Rate of Perceived Exertion",
+					"placeholder":"on a scale of 1-10"
+				}
+			]
+		}
+	}
+	
+  ]
+  
+}

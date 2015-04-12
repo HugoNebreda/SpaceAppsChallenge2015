@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Mission - Train Like An Astronaut (BETA)</title>
+
+	<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- PLUGINS CSS -->
+	<link href="assets/plugins/weather-icon/css/weather-icons.min.css" rel="stylesheet">
+	<link href="assets/plugins/prettify/prettify.min.css" rel="stylesheet">
+	<link href="assets/plugins/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+	<link href="assets/plugins/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+	<link href="assets/plugins/owl-carousel/owl.theme.min.css" rel="stylesheet">
+	<link href="assets/plugins/owl-carousel/owl.transitions.min.css" rel="stylesheet">
+	<link href="assets/plugins/chosen/chosen.min.css" rel="stylesheet">
+	<link href="assets/plugins/icheck/skins/all.css" rel="stylesheet">
+	<link href="assets/plugins/datepicker/datepicker.min.css" rel="stylesheet">
+	<link href="assets/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+	<link href="assets/plugins/validator/bootstrapValidator.min.css" rel="stylesheet">
+	<link href="assets/plugins/summernote/summernote.min.css" rel="stylesheet">
+	<link href="assets/plugins/markdown/bootstrap-markdown.min.css" rel="stylesheet">
+	<link href="assets/plugins/datatable/css/bootstrap.datatable.min.css" rel="stylesheet">
+	<link href="assets/plugins/morris-chart/morris.min.css" rel="stylesheet">
+	<link href="assets/plugins/c3-chart/c3.min.css" rel="stylesheet">
+	<link href="assets/plugins/slider/slider.min.css" rel="stylesheet">
+
+	<!-- MAIN CSS (REQUIRED ALL PAGE)-->
+	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/style-responsive.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	<script type="text/javascript" charset="utf-8">
+
+	function getURLParameter(name) {
+	  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+	}
+
+	function loadJson() {
+
+		
+		$(document).ready(function()
+		{
+			id = getURLParameter('id');
+	
+			$.getJSON('data1.json', function(json) {
+				
+				var div = document.getElementById('mission-content');
+
+				
+				 
+				 mission = json.missions[id];
+				
+
+				 // Looping through object 
+   	
+    var p = document.createElement('p');
+
+
+    p.innerHTML = '<h1 class="page-heading"><small>MISSION</small><br>'+mission.title+'</h1>'+
+					'<div class="alert alert-warning alert-bold-border fade in ">'+				
+						'<p><strong>Greetings Future Astronaut!</strong></p><br>'+
+						'<ul>'+
+							'<li><p class="text-muted">You will perform a walk, progressing to 1600 m (1 mi) to improve lung, heart,and other muscle endurance.</p></li>'+
+
+							'<li><p class="text-muted">You will record observations about improvements in this walk-back physical endurance experience using their lungs, hearts, and other muscles in their Mission Journal</p></li>'+
+						'</ul>'+
+					'</div>'+
+					'<!-- END EXAMPLE ALERT -->'+
+					'<div class="panel-group" id="accordion-2">' + 
+ '							<div class="panel panel-primary">' + 
+ '								<div class="panel-heading">' + 
+ '									<h3 class="panel-title">' + 
+ '										<a class="block-collapse" data-parent="#accordion-2" data-toggle="collapse" href="#accordion-2-child-1">' + 
+ '											Mission Assignment' + 
+ '											<span class="right-content">' + 
+ '												<span class="right-icon">' + 
+ '													<i class="glyphicon glyphicon-pluss icon-collapse"></i>' + 
+ '												</span>' + 
+ '											</span>' + 
+ '										</a>' + 
+ '									</h3>' + 
+ '								</div>' + 
+ '								<div id="accordion-2-child-1" class="collapse">' + 
+ '									<div class="panel-body">' + 
+ '										<h4>Endurance Training</h4>' + 
+ '' + 
+ '										<div class="col-sm-12">' + 
+ '											<h4 class="small-title">Measure a course with the following distances</h4>' + 
+ '											<ul class="list-group">' + 
+ '												<li class="list-group-item">400 m (¼ mi)</li>' + 
+ '												<li class="list-group-item">800 m (¼ mi)</li>' + 
+ '												<li class="list-group-item">1200 m (¼ mi)</li>' + 
+ '												<li class="list-group-item">1600 m (¼ mi)</li>' + 
+ '												<li class="list-group-item">This could be laps around the playground, track, gym, or your neighborhood.</li>' + 
+ '											</ul>' + 
+ '										</div><!-- /.col-sm-12 -->' + 
+ '										<div class="col-sm-12">' + 
+ '											<h4 class="small-title">At your own pace, walk, jog, or run the measured distance.</h4>' + 
+ '											<ul class="list-group">' + 
+ '												<li class="list-group-item">Start by trying to complete 400 m (¼ mi).</li>' + 
+ '												<li class="list-group-item">Slowly work to increase the distance by 400 m (¼ mi).</li>' + 
+ '												<li class="list-group-item">Over time, your goal should be to complete 1600 m (1 mi).</li>' + 
+ '' + 
+ '											</ul>' + 
+ '										</div><!-- /.col-sm-12 -->' + 
+ '										<div class="col-sm-12">' + 
+ '											<h4 class="small-title">Record observations before and after this physical experience in your Mission Journal</h4>' + 
+ '' + 
+ '										</ul>' + 
+ '									</div><!-- /.col-sm-12 -->' + 
+ '								</div><!-- /.panel-body -->' + 
+ '							</div><!-- /.collapse in -->' + 
+ '						</div><!-- /.panel panel-primary -->' + 
+ '						<div class="panel panel-success">' + 
+ '							<div class="panel-heading">' + 
+ '								<h3 class="panel-title">' + 
+ '									<a class="block-collapse" data-parent="#accordion-2" data-toggle="collapse" href="#accordion-2-child-2">' + 
+ '										Fitness Acceleration' + 
+ '										<span class="right-content">' + 
+ '											<span class="right-icon">' + 
+ '												<i class="glyphicon glyphicon-plus icon-collapse"></i>' + 
+ '											</span>' + 
+ '										</span>' + 
+ '									</a>' + 
+ '								</h3>' + 
+ '							</div>' + 
+ '							<div id="accordion-2-child-2" class="collapse">' + 
+ '								<div class="panel-body">' + 
+ '									<ul class="list-group">' + 
+ '										<li class="list-group-item"> Sprint 100 m (110 yards) then walk 100 m (110 yards). Repeat  this four times.</li>' + 
+ '										<li class="list-group-item">Sprint intervals on a basketball court.<br>Sprint 13 m (42 ft) touch the  floor with your hand and reverse immediately to where you  started and touch the floor. Sprint 22.6 m (74 ft) <br>Touch the line  with your hand and reverse immediately to where you started.<br> Do  this two times.</li>' + 
+ '										<li class="list-group-item">Repeat the above intervals, this time increase the distance by  doing the intervals four times instead of two.</li>' + 
+ '' + 
+ '									</ul>' + 
+ '								</div><!-- /.panel-body -->' + 
+ '							</div><!-- /.collapse in -->' + 
+ '						</div><!-- /.panel panel-success -->' + 
+ '						<div class="panel panel-purple">' + 
+ '							<div class="panel-heading">' + 
+ '								<h3 class="panel-title">' + 
+ '									<a class="block-collapse" data-parent="#accordion-2" data-toggle="collapse" href="#accordion-2-child-3">' + 
+ '										Mission Explorations' + 
+ '										<span class="right-content">' + 
+ '											<span class="right-icon">' + 
+ '												<i class="glyphicon glyphicon-plus icon-collapse"></i>' + 
+ '											</span>' + 
+ '										</span>' + 
+ '									</a>' + 
+ '								</h3>' + 
+ '							</div>' + 
+ '							<div id="accordion-2-child-3" class="collapse">' + 
+ '								<div class="panel-body">' + 
+ '									<ul class="list-group">' + 
+ '										<li class="list-group-item">Perform the activity as a relay team event.</li>' + 
+ '										<li class="list-group-item">"Trail walk or hike a measured distance."</li>' + 
+ '										<li class="list-group-item">"Compete in “fun-runs”, races, or join a track team."</li>' + 
+ '										<li class="list-group-item">"Walk with your family or friends instead of using other transportation.</li>' + 
+ '									</ul>' + 
+ '								</div><!-- /.panel-body -->' + 
+ '							</div><!-- /.collapse in -->' + 
+ '						</div><!-- /.panel panel-secondary -->' + 
+ '						<div class="panel panel-info">' + 
+ '							<div class="panel-heading">' + 
+ '								<h3 class="panel-title">' + 
+ '									<a class="block-collapse" data-parent="#accordion-2" data-toggle="collapse" href="#accordion-2-child-4">' + 
+ '										Facts' + 
+ '										<span class="right-content">' + 
+ '											<span class="right-icon">' + 
+ '												<i class="glyphicon glyphicon-plus icon-collapse"></i>' + 
+ '											</span>' + 
+ '										</span>' + 
+ '									</a>' + 
+ '								</h3>' + 
+ '							</div>' + 
+ '							<div id="accordion-2-child-4" class="collapse">' + 
+ '								<div class="panel-body">' + 
+ '									<ul class="list-group">' + 
+ '										<li class="list-group-item"> By improving your ability to walk a measured distance, you may find that running a race, walking uphill, or carrying a heavy backpack while walking  will become easier over time.</li>' + 
+ '										<li class="list-group-item">When exploring the moon or Mars, astronauts will complete many physical tasks such as setting up science experiments and power systems around the base and collecting rock samples. They will also walk or drive the roverlong distances in order to explore the surface. If their roverbreaks down, they must be able to walk up to a distance of 10 km (6.2 mi) back to their base station. Astronauts are examined by research scientists in NASA’s Cardiovascular Laboratory and they train with NASA strength and conditioning specialists to strengthen their lungs, hearts and other muscles before their mission. This helps NASA to know the crew member is physically prepared to complete their mission tasks and to perform a walk-back, if necessary. </li>' + 
+ '									</ul>' + 
+ '								</div><!-- /.panel-body -->' + 
+ '							</div><!-- /.collapse in -->' + 
+ '						</div><!-- /.panel panel-info -->' + 
+ '						<div class="panel panel-danger">' + 
+ '							<div class="panel-heading">' + 
+ '								<h3 class="panel-title">' + 
+ '									<a class="block-collapse" data-parent="#accordion-2" data-toggle="collapse" href="#accordion-2-child-5">' + 
+ '										Definitions' + 
+ '										<span class="right-content">' + 
+ '											<span class="right-icon">' + 
+ '												<i class="glyphicon glyphicon-plus icon-collapse"></i>' + 
+ '											</span>' + 
+ '										</span>' + 
+ '									</a>' + 
+ '								</h3>' + 
+ '							</div>' + 
+ '							<div id="accordion-2-child-5" class="collapse">' + 
+ '								<div class="panel-body">' + 
+ '									<ul class="list-group">' + 
+ '										<li class="list-group-item"><strong>Base Station:</strong><br>A home-base on the moon or Mars where astronauts will be stationed. </li>' + 
+ '										<li class="list-group-item"><strong>Endurance</strong><br>The ability to perform an exercise or a physical task over a long period of time</li>' + 
+ '										<li class="list-group-item"><strong>Rover:</strong><br>A go-cart-like vehicle that astronauts drive on the moon and potentially the Mars surface. </li>' + 
+ '									</ul>' + 
+ '' + 
+ '								</div><!-- /.panel-body -->' + 
+ '							</div><!-- /.collapse in -->' + 
+ '						</div><!-- /.panel panel-danger -->' + 
+ '						<div class="panel panel-warning">' + 
+ '							<div class="panel-heading">' + 
+ '								<h3 class="panel-title">' + 
+ '									<a class="block-collapse" data-parent="#accordion-2" data-toggle="collapse" href="#accordion-2-child-6">' + 
+ '										Resources' + 
+ '										<span class="right-content">' + 
+ '											<span class="right-icon">' + 
+ '												<i class="glyphicon glyphicon-plus icon-collapse"></i>' + 
+ '											</span>' + 
+ '										</span>' + 
+ '									</a>' + 
+ '								</h3>' + 
+ '							</div>' + 
+ '							<div id="accordion-2-child-6" class="collapse">' + 
+ '								<div class="panel-body">' + 
+ '																	<div class="panel-body">' + 
+ '									<ul class="list-group">' + 
+ '										<li class="list-group-item"> <a href="http://www.nasa.gov/sites/default/files/182806main_Walk-Back_ED.pdf">Educator Guide (PDF)</a></li>' + 
+ '										<li class="list-group-item"><a href="http://www.nasa.gov/audience/foreducators/trainlikeanastronaut/activities/Walkback.html">View in website</a></li>' + 
+ '									</ul>' + 
+ '								</div><!-- /.panel-body -->' + 
+ '							</div><!-- /.collapse in -->' + 
+ '						</div><!-- /.panel panel-warning -->' + 
+ '					</div><!-- /.panel-group -->';
+
+
+
+    	div.appendChild(p);
+
+
+     
+				 
+				});
+		});
+	}
+	</script>
+	</head>
+
+	<body class="tooltips" onload="loadJson();">
+		
+		
+		<!--
+		===========================================================
+		BEGIN PAGE
+		===========================================================
+	-->
+	<div class="wrapper">
+			<!-- BEGIN TOP NAV -->
+			<div id="top" class="top-navbar">
+			</div><!-- /.top-navbar -->
+			<!-- END TOP NAV -->
+			
+			
+			
+			<!-- BEGIN SIDEBAR LEFT -->
+			<div id="menu" class="sidebar-left sidebar-nicescroller">
+			</div><!-- /.sidebar-left -->
+			<!-- END SIDEBAR LEFT -->
+			
+			
+			
+			
+			<!-- BEGIN PAGE CONTENT -->
+			<div class="page-content">
+
+				<div id="mission-content" class="container-fluid">
+
+
+				</div><!-- /.container-fluid -->
+
+
+		<!-- BEGIN FOOTER -->
+		<footer>
+			<h3>Done? Then log your results <a href="concrete-mission-journal.html?=0">Here!</a></h3><br>
+		</footer>
+		<!-- END FOOTER -->
+
+
+	</div><!-- /.page-content -->
+</div><!-- /.wrapper -->
+<!-- END PAGE CONTENT -->
+
+
+
+
+
+
+		<!--
+		===========================================================
+		END PAGE
+		===========================================================
+	-->
+
+		<!--
+		===========================================================
+		Placed at the end of the document so the pages load faster
+		===========================================================
+	-->
+	<!-- MAIN JAVASRCIPT (REQUIRED ALL PAGE)-->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/plugins/retina/retina.min.js"></script>
+	<script src="assets/plugins/nicescroll/jquery.nicescroll.js"></script>
+	<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="assets/plugins/backstretch/jquery.backstretch.min.js"></script>
+
+	<!-- PLUGINS -->
+	<script src="assets/plugins/skycons/skycons.js"></script>
+	<script src="assets/plugins/prettify/prettify.js"></script>
+	<script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+	<script src="assets/plugins/chosen/chosen.jquery.min.js"></script>
+	<script src="assets/plugins/icheck/icheck.min.js"></script>
+	<script src="assets/plugins/datepicker/bootstrap-datepicker.js"></script>
+	<script src="assets/plugins/timepicker/bootstrap-timepicker.js"></script>
+	<script src="assets/plugins/mask/jquery.mask.min.js"></script>
+	<script src="assets/plugins/validator/bootstrapValidator.min.js"></script>
+	<script src="assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+	<script src="assets/plugins/datatable/js/bootstrap.datatable.js"></script>
+	<script src="assets/plugins/summernote/summernote.min.js"></script>
+	<script src="assets/plugins/markdown/markdown.js"></script>
+	<script src="assets/plugins/markdown/to-markdown.js"></script>
+	<script src="assets/plugins/markdown/bootstrap-markdown.js"></script>
+	<script src="assets/plugins/slider/bootstrap-slider.js"></script>
+
+	<!-- EASY PIE CHART JS -->
+	<script src="assets/plugins/easypie-chart/easypiechart.min.js"></script>
+	<script src="assets/plugins/easypie-chart/jquery.easypiechart.min.js"></script>
+
+	<!-- KNOB JS -->
+		<!--[if IE]>
+		<script type="text/javascript" src="assets/plugins/jquery-knob/excanvas.js"></script>
+		<![endif]-->
+		<script src="assets/plugins/jquery-knob/jquery.knob.js"></script>
+		<script src="assets/plugins/jquery-knob/knob.js"></script>
+
+		<!-- FLOT CHART JS -->
+		<script src="assets/plugins/flot-chart/jquery.flot.js"></script>
+		<script src="assets/plugins/flot-chart/jquery.flot.tooltip.js"></script>
+		<script src="assets/plugins/flot-chart/jquery.flot.resize.js"></script>
+		<script src="assets/plugins/flot-chart/jquery.flot.selection.js"></script>
+		<script src="assets/plugins/flot-chart/jquery.flot.stack.js"></script>
+		<script src="assets/plugins/flot-chart/jquery.flot.time.js"></script>
+
+		<!-- MORRIS JS -->
+		<script src="assets/plugins/morris-chart/raphael.min.js"></script>
+		<script src="assets/plugins/morris-chart/morris.min.js"></script>
+		
+		<!-- C3 JS -->
+		<script src="assets/plugins/c3-chart/d3.v3.min.js" charset="utf-8"></script>
+		<script src="assets/plugins/c3-chart/c3.min.js"></script>
+		
+		<!-- MAIN APPS JS -->
+		<script src="assets/js/apps.js"></script>
+		<script src="menu.js"></script>
+		<script src="top.js"></script>
+		
+	</body>
+	</html>
